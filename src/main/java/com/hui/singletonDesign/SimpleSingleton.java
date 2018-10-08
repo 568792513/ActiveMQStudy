@@ -5,9 +5,11 @@ public class SimpleSingleton {
 
     private static SimpleSingleton instacne = null;
 
+    // 私有化构造器
     private SimpleSingleton() {
     }
 
+    // 使用内部方法来初始化类
     public static SimpleSingleton getInstacne() {
         if (instacne == null) {
             instacne = new SimpleSingleton();
@@ -15,3 +17,4 @@ public class SimpleSingleton {
         return instacne;
     }
 }
+

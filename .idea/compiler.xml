@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ActivemqStudy" />
+        <module name="ActiveMQStudy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ActivemqStudy" target="1.5" />
+      <module name="ActiveMQStudy" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
